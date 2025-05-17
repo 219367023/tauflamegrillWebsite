@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Our Services | Braids, Nails and Makeup in Pretoria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="De Elegance is a professional salon in Pretoria offering braids,nails, makeup, and beauty treatment. Book now for affordable and high-quality service.">
+        <meta name="keywords" content="salon, Pretoria, hair salon, nails, makeup, braids,De Elegance, beauty salon, book appointment.">
+        <meta name="author" content="De Elegance Web Team">
+        <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Glow & Grace</a>
+                
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <header class="page-header">
+            <h1>
+                Our Services
+            </h1>
+        </header>
+        
+        <section class="services-page">
+            <div class="service-item">
+                <h3>Haircuts</h3>
+                <p>
+                    Classic, modern or trendy styles for all hair types. From R80.00
+                </p>
+            </div>
+            <div class="service-item">
+                <h3>Braiding</h3>
+                <p>
+                    Box braids, twists, cornrows & more.  Starts from R200.00
+                </p>
+            </div>
+            <div class="service-item">
+                <h3>Nails</h3>
+                <p>
+                    Manicures, acrylics,gel polish, nail art. From R150.00
+                </p>
+            </div>
+            <div class="service-item">
+                <h3>Hair Treatment</h3>
+                <p>
+                    Deep conditioning, protein treatment & repair. From R120.00
+                </p>
+            </div>
+            <div class="service-item">
+                <h3>Makeup</h3>
+                <p>
+                    Glam, natural, event makeup. From R250
+                </p>
+            </div>
+        </section>
+        
+        <footer>
+            Visit us in Pretoria CBD | Call: 081 234 5678 | Instagram: @abce
+        </footer>
+        
+        <script>
+            function toggleMenu(){
+                const navLinks = document.getElementById("navLinks");
+                navLinks.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>

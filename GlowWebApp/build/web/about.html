@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>About Us | De Elegance Salon - Beauty Salons in Pretoria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="De Elegance is a professional salon in Pretoria offering braids,nails, makeup, and beauty treatment. Book now for affordable and high-quality service.">
+        <meta name="keywords" content="salon, Pretoria, hair salon, nails, makeup, braids,De Elegance, beauty salon, book appointment.">
+        <meta name="author" content="De Elegance Web Team">
+        <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">De Elegance</a>
+                
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <header class="page-header">
+            <h1>
+                About De Elegance
+            </h1>
+        </header>
+        
+        <section class="about-section">
+            <div class="about-content">
+                <p>
+                    Welcome to <strong>De Elegance Salon</strong> - where beauty meets excellence.  Based in Pretoria
+                    CBD, we specialize in bringing out your natural glow wit professional care, skill, and love.
+                </p>
+                <p>
+                    Founded with passion for self-care and empowerment, our salon offers high-quality services in hair, 
+                    nails, makeup and more - all delivery-friendly, skilled stylists in a relaxed, clean and vibrant space.
+                </p>
+                <p>
+                    Whether you're preparing for a special event or just to feel refreshed, we're here to help you look good
+                    and feel graceful every time.
+                </p>
+                <p class="tagline">Glow up. with De Elegance.</p>
+            </div>
+            
+        </section>
+        <footer>
+            Visit us in Pretoria CBD | Call: 081 234 5678 | Instagram: @abce
+        </footer>
+        
+        <script>
+            function toggleMenu(){
+                const navLinks = document.getElementById("navLinks");
+                navLinks.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>
